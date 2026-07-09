@@ -1,7 +1,7 @@
 
 # Purpose/Overview
 
-The code IDOSE estimates organ-specific inhalation dose coefficients for a selected radionuclide, age, and lung absorption type adjusted for a given aerosol particle size. Total effective dose is calculated as a combination of target organ dose and tissue weighting factors. The total effective dose includes regular target organs and an estimate of dose from a group of remainder tissues. Dose is adjusted for aerosol particle size deposition in multiple regions of the respiratory tract, which affects different target organs. 
+The code IDOSE estimates organ-specific inhalation dose coefficients for a selected radionuclide, age, and lung absorption type adjusted for a given aerosol particle size. Total effective dose is calculated as a combination of target organ dose and tissue weighting factors (ICRP 60). The total effective dose includes regular target organs and an estimate of dose from a group of remainder tissues. Dose is adjusted for aerosol particle size deposition in multiple regions of the respiratory tract, which affects different target organs. 
 
 ## User provided input
 
@@ -67,5 +67,5 @@ For organs classified as remainder tissues, compute the weighted contribution us
 
 Combine the regular-organ contributions and the remainder-tissues contribution to produce the total effective dose. 
 
-### Table 1. Tissue weighting factors by age
+### Table 1. Tissue weighting factors by age (ICRP 89)
 <img width="685" height="673" alt="image" src="https://github.com/user-attachments/assets/ca697d2b-4b7a-44ab-9284-eed34c51e5e6" />
