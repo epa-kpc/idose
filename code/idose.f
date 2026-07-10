@@ -65,9 +65,8 @@
 ! Read in index of nuclides
 !-------------------------------
 
-!          OPEN(9,FILE='INPUT.NDX',status='old',form='formatted')
-          OPEN(9,FILE='allnucslist.txt',status='old',form='formatted')
-
+          OPEN(9,FILE='INPUT.NDX',status='old',form='formatted')
+          
           read(9, '(i)') NUMBER
            
           do i = 1, NUMBER 
