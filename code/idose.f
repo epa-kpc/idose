@@ -335,7 +335,7 @@
         HREM = 0.0D0
         REMQA = trim(REMQA) // "Z"
       else
-       if (MAXREGC > MAXREMC) then !max regular tissue coef < max remainder tissue coef
+       if (MAXREGC > MAXREMC) then !max regular tissue coef > max remainder tissue coef
         HREM = SUMREM / SUMREMW
         REMQA = trim(REMQA) // "A" 
        else !max remainder tissue coef > max regular tissue coef
