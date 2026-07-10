@@ -26,7 +26,8 @@ The code IDOSE estimates organ-specific inhalation dose coefficients for a selec
   - `BBI-SOL.HDB`
   - `BBI-SEQ.HDB`
   - `ET1.HDB`
-  - `ET2.HDB` 
+  - `ET2.HDB`
+- The "region" HDB files are distributed with EPA's CAP88 v4.1 software: https://www.epa.gov/radiation/forms/cap88-pc-version-411-downloads-and-supporting-documents
 
 ### Outputs
 
